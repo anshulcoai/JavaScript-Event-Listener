@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>page title</title>
+  <script>
+   var clickCounter=0;
+   window.onload = function(){
+    document.getElementById("testing").onclick = function() {
+     clickCounter++;
+     if (clickCounter==2) {
+      window.alert("Hello");
+     }
+     else{
+        alert("first click")
+     }
+    };
+   }
+  </script>
+ </head
+ <body>
+  <input id="testing" type="button" value="X" style="background-color: red; border: 0;">
+ </body>
+</html>
